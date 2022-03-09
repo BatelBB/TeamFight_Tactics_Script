@@ -2,16 +2,17 @@ import pyautogui
 import time
 
 time.sleep(1)
-pyautogui.moveTo(39,400) # Launcher
-pyautogui.doubleClick()
+pyautogui.press("win")
+pyautogui.write("league")
+pyautogui.press("enter")
 time.sleep(30)
 pyautogui.moveTo(319,98) # Play Button
 pyautogui.leftClick()
 time.sleep(2)
-pyautogui.moveTo(954,345) # TFT Button
+pyautogui.moveTo(1126,349) # TFT Button
 pyautogui.leftClick()
 time.sleep(2)
-pyautogui.moveTo(900,741) # Ranked Button
+pyautogui.moveTo(1035,746) # Ranked Button
 pyautogui.leftClick()
 time.sleep(1)
 pyautogui.moveTo(794,910) # Confirm Button
